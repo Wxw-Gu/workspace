@@ -9,13 +9,21 @@
     "changeset": "changeset",
     "version-packages": "changeset version",
     "preinstall": "npx only-allow pnpm",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "release": "pnpm build && pnpm release:only",
+    "release:only": "changeset publish --registry=https://registry.npmjs.com/",
+    "commit": "cz",
+    "postinstall": "husky install"
   },
   "author": "",
   "license": "ISC",
   "private": true,
   "devDependencies": {
     "@changesets/cli": "^2.26.2",
-    "father-build": "^1.22.5"
+    "@commitlint/cli": "^17.6.7",
+    "@commitlint/config-conventional": "^17.6.7",
+    "commitizen": "^4.3.0",
+    "cz-conventional-changelog": "^3.3.0",
+    "father-build": "^1.22.5",
+    "husky": "^8.0.3"
   }
 }
