@@ -1,0 +1,14 @@
+{
+  "name": "@qftjs/menorepo2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "father-build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@qftjs/menorepo1": "workspace:^1.0.0"
+  }
+}
