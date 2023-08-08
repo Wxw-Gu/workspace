@@ -1,0 +1,11 @@
+{
+  "mode": "pre",
+  "tag": "beta",
+  "initialVersions": {
+    "@qftjs/menorepo1": "1.0.0",
+    "@qftjs/menorepo2": "1.0.0"
+  },
+  "changesets": [
+    "smooth-chicken-retire"
+  ]
+}

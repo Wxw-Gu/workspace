@@ -1,6 +1,6 @@
 {
   "name": "@qftjs/menorepo1",
-  "version": "1.0.0",
+  "version": "2.0.0-beta.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -9,6 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@qftjs/menorepo2": "workspace:^1.0.0"
+    "@qftjs/menorepo2": "workspace:^2.0.0-beta.0"
   }
 }
